@@ -49,7 +49,27 @@ function Card({ title, description, linkText, href, download }: CardProps) {
       <p className="text-sm text-neutral-500 leading-relaxed flex-1 mb-4">
         {description}
       </p>
-      <Button asChild>
+      <Button 
+        className="
+    bg-ui-contrast-bg-base
+    text-ui-contrast-fg-primary
+
+    border
+    border-ui-contrast-border-base
+
+    shadow-sm
+    rounded-md
+
+    hover:bg-ui-contrast-bg-hover
+    active:bg-ui-contrast-bg-pressed
+
+    focus-visible:outline-none
+    focus-visible:ring-2
+    focus-visible:ring-ui-contrast-ring
+    focus-visible:ring-offset-2
+    focus-visible:ring-offset-ui-bg-base
+
+    transition-colors        "      asChild>
         <a
           href={href}
           {...(download ? { download: true } : { target: "_blank", rel: "noopener noreferrer" })}
