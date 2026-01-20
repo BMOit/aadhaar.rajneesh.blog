@@ -18,9 +18,9 @@ export const metadata: Metadata = {
       "Matplot Charts for detailed analysis. UIDAI Data Hackathon 2026 Project by Rajneesh",
     images: [
       {
-        url: "https://aadhaar.rajneesh.blog/og.png",
-        width: 1200,
-        height: 630,
+        url: "https://aadhaar.rajneesh.blog/og.webp",
+        width: 700,
+        height: 400,
         alt: "Matplot Charts of UIDAI Data Hackathon 2026 Project",
       },
     ],
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     title: "UIDAI Hackathon 2026 Project | Rajneesh",
     description:
       "Matplot Charts for detailed analysis. UIDAI Data Hackathon 2026 Project by Rajneesh",
-    images: ["https://aadhaar.rajneesh.blog/og.png"],
+    images: ["https://aadhaar.rajneesh.blog/og.webp"],
   },
   robots: {
     index: true,
