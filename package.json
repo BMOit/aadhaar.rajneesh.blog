@@ -1,4 +1,5 @@
 {
+  "name": "aadhaar-rajneesh-blog",
   "private": true,
   "scripts": {
     "dev": "next dev",
