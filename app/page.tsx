@@ -31,7 +31,7 @@ export default function Page() {
           <span className="font-semibold"> Date of Submission</span>: 20th
           January, 2026{" "}
           <a
-            className="text-[8.5px] italic"
+            className="text-[8.5px] italic underline"
             href="https://event.data.gov.in/challenge/uidai-data-hackathon-2026/"
           >
             More Info
