@@ -59,7 +59,7 @@ export default function RootLayout({
         GeistMono.variable,
       )}
     >
-      <body className="antialiased max-w-2xl mx-4 mt-8 lg:mx-auto">
+      <body className="antialiased max-w-2xl mx-4 mt-2 lg:mx-auto">
         <main className="flex-auto min-w-0 pt-5 md:pt-16 flex flex-col px-2 md:px-0">
           {children}
           <Footer />

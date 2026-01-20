@@ -137,10 +137,6 @@ table {
   text-wrap: balance;
 }
 
-a {
-  @apply underline decoration-neutral-400 underline-offset-2 decoration-[0.095em] transition-all hover:decoration-neutral-800;
-}
-
 .card {
-  @apply border border-neutral-300 bg-neutral-50 p-2 rounded-md flex flex-col;
+  @apply border border-neutral-300 bg-neutral-50/60 p-2 rounded-md flex flex-col;
 }
