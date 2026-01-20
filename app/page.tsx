@@ -125,7 +125,7 @@ export default function Page() {
           title="Detailed Analysis"
           description="Download the comprehensive analysis document with visualizations and insights."
           linkText="Download PDF"
-          href="/detailed-analysis.pdf"
+          href="/analysis.pdf"
           download
         />
       </div>
