@@ -42,7 +42,7 @@ interface CardProps {
   download?: boolean;
 }
 
-function Card({ title, description, linkText, href, download, icon }: CardProps) {
+function Card({ title, description, linkText, href, download }: CardProps) {
   return (
     <Container className="group flex flex-col h-full !bg-white !shadow-[0_0_0_1px_rgba(0,0,0,0.08),0_1px_2px_-1px_rgba(0,0,0,0.08),0_2px_4px_rgba(0,0,0,0.04)]">
       <h3 className="text-sm font-semibold text-neutral-900 mb-1.5">{title}</h3>
