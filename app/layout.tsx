@@ -10,10 +10,12 @@ import { baseUrl } from "./sitemap";
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: "UIDAI Hackathon 2026 Project | Rajneesh",
-  description: "Matplot Charts for detailed analysis. UIDAI Data Hackathon 2026 Project by Rajneesh",
+  description:
+    "Matplot Charts for detailed analysis. UIDAI Data Hackathon 2026 Project by Rajneesh",
   openGraph: {
     title: "UIDAI Hackathon 2026 Project | Rajneesh",
-    description: "Matplot Charts for detailed analysis. UIDAI Data Hackathon 2026 Project by Rajneesh",
+    description:
+      "Matplot Charts for detailed analysis. UIDAI Data Hackathon 2026 Project by Rajneesh",
     images: [
       {
         url: "https://aadhaar.rajneesh.blog/og.png",
@@ -27,7 +29,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "UIDAI Hackathon 2026 Project | Rajneesh",
-    description: "Matplot Charts for detailed analysis. UIDAI Data Hackathon 2026 Project by Rajneesh",
+    description:
+      "Matplot Charts for detailed analysis. UIDAI Data Hackathon 2026 Project by Rajneesh",
     images: ["https://aadhaar.rajneesh.blog/og.png"],
   },
   robots: {
