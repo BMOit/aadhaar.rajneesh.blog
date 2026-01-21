@@ -89,7 +89,7 @@ export default function Page() {
       <div className="flex flex-col space-y-2">
         <p>
           <span className="font-semibold">Problem Statement</span>:
-          Understanding repeated aadhar engagement patterns and their impact on
+          Understanding repeated aadhaar engagement patterns and their impact on
           users.
         </p>
         <p>
